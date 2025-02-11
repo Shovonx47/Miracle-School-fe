@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import { ChevronDown, Filter } from 'lucide-react';
-import Avatar from '@/assets/avatars/3d_avatar_3.png';
+import Avatar from "@/assets/avatars/3d_avatar_3.png";
 
 type Tickers = {
   [key: string]: boolean;
@@ -42,7 +42,7 @@ const AllStudentsTable = () => {
     {
       admissionNo: 'AD11223346',
       rollNo: '1236',
-      name: 'Liam',
+      name: 'Neil',
       profileImage: Avatar.src,
       class: 'VII',
       section: 'B',
